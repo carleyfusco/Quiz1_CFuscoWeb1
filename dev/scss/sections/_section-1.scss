@@ -1,0 +1,73 @@
+/* =============
+    Section 1
+============= */
+#section-1 {
+    background-image: url('../img/section-1/Beach_Rocks.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 695px;
+    text-align: center;
+    padding-top: 100px;
+
+    img{
+        height: 80px;
+        padding-top: 212px;
+
+        @include md{
+            height: 120;
+        }
+
+        @include lg {
+            height: 160px;
+        }
+
+        @include xl {
+            height: 200px;
+        }
+    }
+
+    @include lg {
+        height: 799px;
+    }
+
+    @include xl {
+        height: 959px;
+    }
+
+    h1 {
+        color: $blue;
+        font-family: 'Comfortaa', sans-serif;
+        font-size: 25px;
+        
+        @include md {
+            font-size: 40px;
+        }
+
+        @include lg {
+            font-size: 40px;
+        }
+
+        @include xl {
+            font-size: 70px;
+        }
+    }
+
+    p {
+        color: $teal;
+        font-size: 16px;
+
+        @include md {
+            font-size: 25px;
+        }
+
+        @include lg {
+            font-size: 32px;
+        }
+
+        @include xl {
+            font-size: 32px;
+        }
+    }
+}
+
+

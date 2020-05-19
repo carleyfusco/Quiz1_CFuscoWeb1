@@ -1,0 +1,43 @@
+/* =============
+    Footer
+============= */
+footer{
+    background-color: $black;
+    background-position: fixed;
+    padding: 30px;
+    text-align: center;
+    color: $white;
+    position: relative;
+
+    @include lg {
+        display: grid;
+    
+    }
+    .outer {
+        width: 300px;
+        margin: 0 auto;
+        grid-area: DrexelWeb
+    }
+    .hr {
+        color: $orange;
+    }
+    .hr4 {
+        color: $white;
+    }
+    .hr5 {
+        color: $orange;
+    }
+    @include lg {
+        display: grid;
+        text-align: right;
+        
+        padding-bottom: 20px;
+        padding-left: 70px;
+    }
+    img {
+        @include lg {
+            display: grid;
+            padding-top: 20px;
+        }
+    }
+}
